@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.env
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Logs and reports
+*.log
+logs/
+coverage/
+htmlcov/
+.pytest_cache/
+
+# TensorFlow / Keras model checkpoints and saved models
+*.h5
+*.pb
+checkpoint
+checkpoints/
+model_weights/
+saved_model/
+
+# Dataset / large files (don't commit large datasets)
+dataset/
+**/dataset/
+data/
+
+# Misc
+*.zip
+*.tar.gz
+*.tgz
+
+# Notebook and temp files
+*.py~
+*~
+
+# Secrets
+.env.local
+credentials.json
+
+# Keep the README and source files tracked
+!README.md
+!cnn.py
+!cnn.ipynb
